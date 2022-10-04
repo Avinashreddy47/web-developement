@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="manageproducts.css">
+    <title>Manage Products</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-right">
+            <a href="home.asp">Home</a>
+            <a href="about.asp">About</a>
+            <a href="products.asp">Products</a>
+            <a href="cart.asp">Cart</a>
+            <a href="contact.asp">Contact</a>
+        </div>
+        <div class="navbar-logo">
+            <a href="homepage.asp">Mercado Escolar</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="rightcolumn">
+            <div class="card">
+                <div class="small-container cart-page">
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Category</th>
+                            <th>Update</th>
+                            <th>Delete</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="cart-info">
+                                    <img src="1r">
+                                    <div>
+                                        <p>Product 1</p>
+                                        <p>Price: $25.00</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><input type="text" value="1" style="text-align: center;"></td>
+                            <td>Category1</td>
+                            <td><a href="">Update Product</a></td>
+                            <td><a href="">Remove Product</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="cart-info">
+                                    <img src="1r">
+                                    <div>
+                                        <p>Product 2</p>
+                                        <p>Price: $50.00</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><input type="text" value="1" style="text-align: center;"></td>
+                            <td>Category1</td>
+                            <td><a href="">Update Product</a></td>
+                            <td><a href="">Remove Product</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="cart-info">
+                                    <img src="1r">
+                                    <div>
+                                        <p>Product 3</p>
+                                        <p>Price: $25.00</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><input type="text" value="1" style="text-align: center;"></td>
+                            <td>Category1</td>
+                            <td><a href="">Update Product</a></td>
+                            <td><a href="">Remove Product</a></td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+        </div>
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Add New Product</h2>
+                <form>
+                    <label for="pname">Enter Product Name:</label><br>
+                    <input type="text" id="pname" name="pname"><br><br>
+                    <label for="cname">Enter Product Category:</label><br>
+                    <input type="text" id="catname" name="catname"><br><br>
+                    <label for="prodprice">Enter Product Price:</label><br>
+                    <input type="number" id="prodprice" name="prodprice"><br><br>
+                    <label for="prodquan">Enter Product Quantity:</label><br>
+                    <input type="number" id="prodquan" name="prodquan"><br><br>
+                    <div>
+                        <span>Upload Product Image</span>
+                        <input type="file" placeholder="ClubImage"/>
+                    </div><br><br>
+                    <div>
+                        <button>Add Product</button>
+                    </div>
+                </form>
+              </div>    
+        </div>
+    </div>
+    
+</body>
+</html>
