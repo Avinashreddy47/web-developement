@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/updateproduct.css">
+    <title>Update Product</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="Services.html">Services</a>
+            <a href="Contact.html">Contact us</a>
+            <a href="Register.html">Register</a>
+        </div>
+        <div class="navbar-logo">
+            <a href="index.html">Mercado Escolar</a>
+        </div>
+    </div><br><br>
+    <div class="row">
+      <h2><center>Product Information</center></h2>
+    </div>
+    <table>
+      <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Category</th>
+      </tr>
+      <tr>
+          <td>
+              <div class="cart-info">
+                  <img src="1r">
+                  <div>
+                      <p>Product 1</p>
+                      <p>Price: $25.00</p>
+                  </div>
+              </div>
+          </td>
+          <td><input type="text" value="1" style="text-align: center;"></td>
+          <td>Category1</td>
+      </tr>
+  </table>
+  <br><br><br>
+  <div class="updateprod">
+  <h2>Update Product Information</h2>
+      <form>
+          <label for="pname">Product Name:</label><br>
+          <input type="text" id="pname" name="pname"><br><br>
+          <label for="cname">Product Category:</label><br>
+          <input type="text" id="catname" name="catname"><br><br>
+          <label for="prodprice">Product Price:</label><br>
+          <input type="number" id="prodprice" name="prodprice"><br><br>
+          <label for="prodquan">Product Quantity:</label><br>
+          <input type="number" id="prodquan" name="prodquan"><br><br>
+          <div>
+              <span>Upload Product Image</span>
+              <input type="file" placeholder="ClubImage"/>
+          </div><br><br>
+          <div>
+              <button>Update Product</button>
+          </div>
+      </form>
+  </div>
+    
+</body>
+</html>

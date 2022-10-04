@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#FFFFFF" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="icon" href="images/logo.png" />
+        
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <script src="js/javascript.js"></script>
+
+        <meta name="description" content="College Mercado Escolar or Market Place" />
+        <title>Market Place</title>
+    </head>
+    <body>
+      <nav>
+        <ul>
+          <li><a href="index.html">Market Place</a></li>
+        </ul>
+
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Cart</a></li>
+          <li><a href="login.html">Login/Register</a></li>
+        </ul>
+
+        <ul class="collapse"  onclick="collapse();">
+          <div class="bars"></div>
+          <div class="bars"></div>
+          <div class="bars"></div>
+        </ul>
+
+      </nav>
+
+      <ul id="menu-collapse" class="menu-collapse">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div id="wrapper">
+        <section class="services">
+          <div class="services-summary">
+            <p>Mercado Escolar or Marketplace is a site for college students and business owners.</p>
+          </div>
+            
+          <div class="services-info">
+            <div class="services-info-1">
+              <img class="services-info-img" src="images/marketplace-business.jpg"/>
+            </div>
+            <div class="">
+              <div class="services-info-item">
+                <div class="services-info-item-info">
+                    <p>This site provides you with products and items mostly required in your studies. Business Owners updates products in stock for students to buy</p>
+                    <p>Once bussiness owners registers , their then get a platform to add their own products for selling.</p>
+                    <p>Also here at the center, businesses will be advertized and those with promotions aired here.</p>
+                </div>  
+              </div>
+ 
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </body>
+</html>
