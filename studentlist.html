@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studentlist.css">
+    <script>
+        function myFunction() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('myInput');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName('li');
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+}
+    </script>
+    <title>Student List</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-right">
+            <a href="schooladmin.html">Home</a>
+            <a href="studentlist.html">Students</a>
+            <a href="bowner.html">Business Owners</a>
+            <a href="reports.html">Reports</a>
+        </div>
+        <div class="navbar-logo">
+            <a href="homepage.asp">Mercado Escolar</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Student List</h2>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+            <ul id="myUL">
+                <li><a href="#">Student Name</a></li>
+                <li><a href="#">Andy Cal</a></li>
+                <li><a href="#">Brandon Smith</a></li>
+                <li><a href="#">Carly J</a></li>
+                <li><a href="#">Derek Smith</a></li>
+                <li><a href="#">Harry P</a></li>
+                <li><a href="#">Laura Sanders</a></li>
+                <li><a href="#">Manoj Singh</a></li>
+                <li><a href="#">Nell Carter</a></li>
+                <li><a href="#">Padma Narayan</a></li>
+                <li><a href="#">Rishi Malhotra</a></li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="leftcolumn">
+          <div class="card">
+            <h3><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Add New Student"><button class="button btn">Add</button></h3>
+            <h3><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Remove a Student"><button class="button btn1">Delete</button></h3>
+          </div>    
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- References: https://www.w3schools.com/css/
+    https://www.w3schools.com/html/
+    https://learn.shayhowe.com/html-css/creating-lists/
+    https://www.w3docs.com/snippets/html.html 
+    -->
