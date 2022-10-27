@@ -1,0 +1,34 @@
+/*  
+Sundararajan Muthukumaran, Prasanna - 1001937587
+Sallagonda, Avinash Reddy - 1002034491
+Shivanand, Shivani - 1001897680
+*/
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.row5{
+   
+  float: left;
+  width: 100%;
+  padding-left: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+
+    width: 100%;
+  }
+}
+.column {
+ 
+  float: left;
+  width: 33.33%;
+  padding-left: 10px;
+  height: 200px;
+}
