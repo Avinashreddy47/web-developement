@@ -79,3 +79,4 @@ const SuperAdminBusiness = () => {
 }
 
 export default SuperAdminBusiness
+// react-scripts --expose-gc --max_old_space_size=12000 start

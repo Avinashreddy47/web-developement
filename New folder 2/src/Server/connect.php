@@ -1,3 +1,3 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "password","Mercado_escolar");
+    $conn = mysqli_connect("localhost", "root", "password","mercado_escolar");
 ?>
