@@ -1,0 +1,13 @@
+References :
+
+https://www.tutorialspoint.com/php_mysql/php_mysql_delete_records.htm
+https://phpgurukul.com/student-management-system-using-php-and-mysql/#google_vignette
+https://www.youtube.com/watch?v=g6HqL18plx4
+https://www.w3schools.com/php/php_form_complete.asp
+https://www.w3schools.com/php/php_form_complete.asp
+https://www.simplilearn.com/tutorials/php-tutorial/php-using-xampp
+https://phpgurukul.com/student-management-system-using-php-and-mysql/#google_vignette
+https://www.tutorialspoint.com/php_mysql/php_mysql_delete_records.htm
+https://www.w3schools.com/howto/howto_js_toggle_password.asp
+https://www.w3schools.com/css/css_form.asp
+https://www.geeksforgeeks.org/how-to-insert-form-data-into-database-using-php/
